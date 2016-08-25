@@ -3,7 +3,7 @@
 Plugin Name: MSD Easy Date
 Description: A small set of tools to restrict display of content by date.
 Author: MSDLAB
-Version: 0.0.1
+Version: 0.0.2
 Author URI: http://msdlab.com
 */
 
@@ -12,7 +12,7 @@ if(!class_exists('GitHubPluginUpdater')){
 }
 
 if ( is_admin() ) {
-    new GitHubPluginUpdater( __FILE__, 'msdlab', "msd-easy-date" );
+    new GitHubPluginUpdater( __FILE__, 'msdlab', "msdlab-easy-date" );
 }
 
 global $msd_easy_date;
